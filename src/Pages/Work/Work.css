@@ -1,0 +1,34 @@
+.work{
+    background-color: #1d293a;
+    /* padding-top: 15px;
+    border-radius: 15px;
+    text-align: start;
+    color: #00cf5d;
+    width: 200px !important; */
+ 
+    
+   
+}
+.margin{
+    margin-top: 100px !important;
+}
+.work-image{
+    height: 50px;
+    width: 50px !important;
+
+}
+.cart-1:hover{
+    box-shadow: 5px 10px 25px 5px rgba(185, 144, 144, 0.125)!important;
+    
+
+}
+.cart-1{
+    border: 1px solid rgba(0,0,0,.125) !important;
+    border-radius: 20px;
+    width: 250px !important;
+    margin: 20px;
+    box-shadow: 5px 10px 25px 5px rgba(99, 91, 91, 0.125)!important;
+}
+.font-size{
+    font-size: 20px !important;
+}

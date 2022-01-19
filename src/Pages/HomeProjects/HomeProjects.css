@@ -1,0 +1,38 @@
+.img-height{
+    height: 120px;
+    background-color: #111A28;
+    position: relative;
+    transition: transform 1s;
+    /* transform-style: preserve-3d; */
+    transform-style: initial;
+   padding-top: 10px;
+}
+.img-height:hover{
+    transform: rotateY(180deg) !important;
+}
+.margin-1{
+    margin-top: 180px;
+    margin-bottom: 150px;
+}
+.text-start-1{
+    text-align: left;
+    align-items: stretch;
+}
+.cart:hover{
+    box-shadow: 5px 10px 25px 5px rgba(185, 144, 144, 0.125)!important;
+    
+
+}
+.cart{
+    border: 1px solid rgba(0,0,0,.125) !important;
+    border-radius: 20px;
+    width: 300px !important;
+    margin: 20px;
+    box-shadow: 5px 10px 25px 5px rgba(99, 91, 91, 0.125)!important;
+}
+.cardText{
+    font-size: 25px;
+    color: #5C626A;
+    padding-bottom: 10px;
+  
+}

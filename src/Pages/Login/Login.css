@@ -1,0 +1,11 @@
+.btn-3{
+    padding: 8px 50px;
+    background-color: #90418F;
+    cursor: pointer;
+    
+  
+}
+.btn-3:hover{
+    background-color: black;
+    color: white;
+}

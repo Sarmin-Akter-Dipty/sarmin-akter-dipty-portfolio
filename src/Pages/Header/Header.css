@@ -1,0 +1,33 @@
+.items {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 5px;
+    text-decoration: none;
+    color:rgb(250, 250, 246);
+    margin-top: 20px;
+  
+  }
+  .items:hover {
+  
+   color: #00cf5d;
+  }
+  .navlinks.active::before,
+.navlinks:hover::before {
+    content: "";
+    position: absolute;
+    width: 5%;
+    height: 5px;
+    bottom: 0;
+    border-bottom: 2px solid #00cf5d;
+}
+
+
+  /* @media only screen and (min-width:350px) and(max-width:991px) {
+    .height{
+    position: -webkit-sticky;
+    }
+    
+  } */

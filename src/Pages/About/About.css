@@ -1,0 +1,13 @@
+.align-items{
+    align-items: center !important;
+}
+.about-img{
+    width: 350px;
+    height: 300px;
+}
+.about-size{
+    color: #fff!important;
+    font-weight: 50!important;
+    font-size: 18px;
+    text-align: justify;
+}

@@ -1,0 +1,49 @@
+.card-height{
+    height: 110px;
+}
+.email-size{
+font-size: 15px;
+}
+.back-ground-1{
+    background-color: red;
+}
+.font-size-2{
+font-size: 12px;
+}
+.contact-img{
+    width: 400px;
+    height: 350px;
+}
+.contact-size:hover{
+    box-shadow: 5px 10px 25px 5px rgba(185, 144, 144, 0.125)!important;
+    
+
+}
+.contact-size{
+    border: 1px solid rgba(0,0,0,.125) !important;
+    border-radius: 20px;
+    height: 50px;
+   color:white;
+    box-shadow: 5px 10px 25px 5px rgba(99, 91, 91, 0.125)!important;
+}
+.btn-3{
+    color: black;
+    padding: 7px 21px;
+    text-decoration: none;
+    border-radius: 10px !important;
+    border: 3px solid #00cf5d;
+    cursor: pointer;
+    background-color:#00cf5d !important;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  
+    /* padding: 5px 13px; */
+  }
+  .btn-3:hover{
+    color:gray !important;
+    background-color:  #111A28 !important;
+  text-decoration: none;
+  transition: .5s ease-in-out;
+  border: 3px solid #00cf5d !important;
+  }
+  
