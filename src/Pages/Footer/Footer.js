@@ -24,7 +24,7 @@ const Footer = () => {
                                     </Card.Body>
                                 </Card>
                             </div>
-                            <div className="col-md-6" data-aos="zoom-in-up">
+                            <div className="col-md-6 footer-img-2" data-aos="zoom-in-up">
 
                                 <img src={footer} className='footer-img' alt="" />
 
