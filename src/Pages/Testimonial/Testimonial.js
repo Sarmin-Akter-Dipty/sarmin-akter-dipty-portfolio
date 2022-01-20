@@ -12,7 +12,7 @@ import { faStar } from '@fortawesome/free-solid-svg-icons';
 const Testimonial = () => {
     return (
         <section id="Testimonials" className="container">
-            <h3 className=" main-info-1 align-item" data-aos="zoom-in">Testimonial's_</h3>
+            <h3 className=" main-info-1 align-item" data-aos="zoom-in">Testimonial's</h3>
             <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel" data-aos="zoom-in-up">
                 <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>

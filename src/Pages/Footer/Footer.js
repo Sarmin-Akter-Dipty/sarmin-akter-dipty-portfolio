@@ -43,13 +43,12 @@ const Footer = () => {
 
                         <div className='margin-footer'>
                             <a className='main-info-1 font-size-3 ' href='
-             https://github.com/Sarmin-Akter-Dipty' target='_blank' ><i class="fab fa-linkedin"></i> Linkedin Link</a>
+              https://www.linkedin.com/in/sarmin-akter-dipty-00b289227' target='_blank' ><i class="fab fa-linkedin"></i> Linkedin Link</a>
                         </div>
 
 
                         <div>
-                            <a className='main-info-1 font-size-3' href='
-             https://github.com/Sarmin-Akter-Dipty' target='_blank' ><i class="fas fa-portrait"></i> Portfolio Link</a>
+                            <a className='main-info-1 font-size-3' href='https://sarmin-akter-dipty-portfolio.netlify.app/' target='_blank' ><i class="fas fa-portrait"></i> Portfolio Link</a>
                         </div>
                     </div>
                 </div>
