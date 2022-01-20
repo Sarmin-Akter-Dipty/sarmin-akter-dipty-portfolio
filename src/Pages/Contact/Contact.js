@@ -21,7 +21,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_xa766if', 'template_q8eulki', e.target, 'user_fS1y02g7w65tWmMqKM4SA')
+        emailjs.sendForm('service_xa766if', 'template_fdbbb3z', e.target, 'user_fS1y02g7w65tWmMqKM4SA')
             .then((result) => {
                 swal('Message sent successfully!');
             }, (error) => {
@@ -105,9 +105,9 @@ const Contact = () => {
 
                                     <input  {...register("email", { required: true })} type="email" placeholder="Email" className=" back-ground  contact-size w-100 my-3" required />  <br />
 
+                                    <textarea {...register("message", { required: true })} placeholder="Message" className=" back-ground  contact-size w-100" required />
 
-
-                                    <input {...register("text", { required: true })} placeholder="Message" className=" back-ground  contact-size w-100" required />
+                                    {/* <input {...register("message", { required: true })} placeholder="Message" className=" back-ground  contact-size w-100" required /> */}
                                     <br />
                                     {/* {errors.exampleRequired && <span>This field is required</span>} */}
                                     <input type="submit" className="w-100 btn-3 contact-size my-3" />
