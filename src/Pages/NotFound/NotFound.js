@@ -12,7 +12,7 @@ const NotFound = () => {
                 <Link to='/home' className="text text-1">Go Home</Link>
                 <h2 className="text-light">Page Not Found</h2>
                 <div className=''>
-                    <img src={notfound} className='notFound' alt="" />
+                    <img src={notfound} className='img-fluid' alt="" />
                 </div>
 
 

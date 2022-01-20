@@ -40,7 +40,7 @@ const Home = () => {
     }
     else {
         return (
-            <div className="row back-ground ">
+            <div className="row back-ground container-fluid">
                 <Header></Header>
                 <div className="col-md-2 ">
                     <Dashboard></Dashboard>

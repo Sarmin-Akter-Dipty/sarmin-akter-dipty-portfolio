@@ -87,7 +87,7 @@ const Blogs = () => {
                 </div>
             </div>
 
-            <Footer></Footer>
+            {/* <Footer></Footer> */}
         </div>
 
     );

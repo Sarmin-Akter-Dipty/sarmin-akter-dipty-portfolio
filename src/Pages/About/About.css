@@ -2,8 +2,8 @@
     align-items: center !important;
 }
 .about-img{
-    width: 335px;
-    height: 300px;
+    width: 335px !important;
+    height: 300px !important;
 }
 .about-size{
     color: #fff!important;

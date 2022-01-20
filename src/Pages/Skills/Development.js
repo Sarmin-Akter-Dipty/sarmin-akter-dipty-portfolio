@@ -16,14 +16,14 @@ import API from '../Images/skills/api.png'
 import Debugging from '../Images/skills/debugging.png'
 const Development = () => {
     return (
-        <div className=" back-ground p-5">
+        <div className=" back-ground p-5 ">
             <Header></Header>
-            <div className='container d-lg-flex justify-content-center align-items-center my-5'>
-                <Link to="/skills" className="btn-2 mx-2">All Skills</Link>
-                <Link to="/design" className="btn-2">Design</Link>
-                <Link to="/development" className="btn-2 mx-2">Development
+            <div className='container-fluid d-flex justify-content-center align-items-center my-5'>
+                <Link to="/skills" className="btn-2">All Skills</Link>
+                <Link to="/design" className="btn-2 btn-margin">Design</Link>
+                <Link to="/development" className="btn-2 btn-margin ">Development
                 </Link>
-                <Link to="/Tools" className="btn-2">Tools
+                <Link to="/Tools" className="btn-2 btn-margin">Tools
                 </Link>
             </div>
             <div>

@@ -18,3 +18,6 @@
 .skill-img:hover{
     transform: rotateY(360deg) !important;
 }
+.btn-margin{
+    margin-left:2px ;
+}

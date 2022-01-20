@@ -11,8 +11,8 @@ font-size: 15px;
 font-size: 12px;
 }
 .contact-img{
-    width: 400px;
-    height: 350px;
+    width: 400px !important;
+    height: 350px !important;
 }
 .contact-size:hover{
     box-shadow: 5px 10px 25px 5px rgba(185, 144, 144, 0.125)!important;

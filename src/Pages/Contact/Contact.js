@@ -7,17 +7,10 @@ import swal from 'sweetalert';
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
-    // const [state, handleSubmit] = useForm("mjvlgonz");
-    // if (state.succeeded) {
-    //     swal("Sent!", "Your Message Sent Successfully!", "success");
 
-    // }
     const { register } = useForm();
     const form = useRef();
-    // const onSubmit = data => {
-    //     console.log(data)
-    //     reset()
-    // };
+
     const sendEmail = (e) => {
         e.preventDefault();
 
@@ -37,65 +30,9 @@ const Contact = () => {
             <div className="container ">
                 <div className="row container d-lg-flex justify-content-center align-items-center mb-5">
                     <div className='col-md-6' data-aos="fade-down-right">
-                        <img src={contact} className='contact-img' alt="" />
+                        <img src={contact} className='contact-img img-fluid' alt="" />
                     </div>
-                    {/* <div className="col-md-6" data-aos="fade-down-left">
-                        <div>
-                            <Form onSubmit={handleSubmit} className=" ms-start ">
-                                <input
-                                    placeholder="Your Name"
-                                    className="back-ground contact-size w-100 p-2"
-                                    id="name"
-                                    type="text"
-                                    name="name"
-                                />
 
-                                <ValidationError
-                                    prefix="Name"
-                                    field="text"
-                                    errors={state.errors}
-                                />
-
-
-                                <br />
-                                <br />
-
-                                <input
-                                    placeholder="Your Email"
-                                    className="back-ground contact-size w-100 p-2"
-                                    id="email"
-                                    type="email"
-                                    name="email"
-                                />
-                                <ValidationError
-                                    prefix="Email"
-                                    field="email"
-                                    errors={state.errors}
-                                />
-                                <br />
-                                <br />
-
-                                <textarea
-                                    placeholder="Your Message"
-                                    className="back-ground contact-size w-100 p-2"
-                                    id="message"
-                                    name="message"
-                                />
-                                <ValidationError
-                                    prefix="Message"
-                                    field="message"
-                                    errors={state.errors}
-                                />
-                                <br />
-                                <br />
-                                <Button type="submit" variant="none" className="w-100 btn-3 contact-size formButton" disabled={state.submitting}>
-                                    Submit
-                                </Button>
-                            </Form>
-
-
-                        </div>
-                    </div> */}
                     <div className="col-md-6" data-aos="fade-down-left">
                         <div>
                             <form ref={form} onSubmit={sendEmail}>
@@ -107,9 +44,7 @@ const Contact = () => {
 
                                     <textarea {...register("message", { required: true })} placeholder="Message" className=" back-ground  contact-size w-100" required />
 
-                                    {/* <input {...register("message", { required: true })} placeholder="Message" className=" back-ground  contact-size w-100" required /> */}
-                                    <br />
-                                    {/* {errors.exampleRequired && <span>This field is required</span>} */}
+
                                     <input type="submit" className="w-100 btn-3 contact-size my-3" />
 
 

@@ -9,7 +9,7 @@ import { faDownload, faExchangeAlt, faIdCard, faLocationArrow } from '@fortaweso
 
 const Banner = () => {
     return (
-        <div className="d-lg-flex justify-content-evenly align-items-center m-5 text-start" >
+        <div className="d-lg-flex justify-content-evenly align-items-center m-5 text-start w-100" >
             <div data-aos="zoom-out-right">
                 <span className="text">Hello!I am,</span>
                 <h1 className="text-light bold"> <span className="">SARMIN AKTER DIPTY</span></h1>

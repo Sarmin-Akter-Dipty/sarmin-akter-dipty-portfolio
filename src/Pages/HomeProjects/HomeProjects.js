@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 
 const HomeProjects = () => {
     return (
-        <div className="margin-1 mx-5">
+        <div className="margin-1 mx-5 ">
             <div className="row d-flex justify-content-center">
 
                 <div className="col-md-4 cart" data-aos="fade-down-right">
