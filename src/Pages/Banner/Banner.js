@@ -4,7 +4,7 @@ import Typed from 'react-typed';
 import { NavLink } from 'react-router-dom';
 import bannerImg from '../Images/undraw_Programmer_re_owql.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDownload, faIdCard } from '@fortawesome/free-solid-svg-icons';
+import { faDownload, faExchangeAlt, faIdCard, faLocationArrow } from '@fortawesome/free-solid-svg-icons';
 
 
 const Banner = () => {
@@ -28,7 +28,7 @@ const Banner = () => {
                 <br />
                 <br />
                 <a className='text-light' href='
-             https://drive.google.com/file/d/1fltzdBWJMW0yZkU1to4WEhAn4e3QOsHq/view?usp=sharing' target='_blank'><button className="btn-1"><FontAwesomeIcon icon={faDownload} />Get Resume </button></a>
+             https://drive.google.com/file/d/1fltzdBWJMW0yZkU1to4WEhAn4e3QOsHq/view?usp=sharing' target='_blank'><button className="btn-1"><FontAwesomeIcon icon={faLocationArrow} />See Resume </button></a>
                 <NavLink to="/contact" className="btn-2">Contact Me</NavLink>
 
             </div>
