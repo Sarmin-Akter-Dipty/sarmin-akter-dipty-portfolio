@@ -72,7 +72,7 @@ const Dashboard = () => {
 
             </div>
             <a className='' href='
-             https://drive.google.com/uc?export=download&id=1fltzdBWJMW0yZkU1to4WEhAn4e3QOsHq' target='_blank'><button className="btn-2">Download Resume <FontAwesomeIcon icon={faDownload} /></button></a>
+             https://drive.google.com/uc?export=download&id=1JAJdOzGsCvG3CNfGbHFFUzFwk3Ex0eiT' target='_blank'><button className="btn-2">Download Resume <FontAwesomeIcon icon={faDownload} /></button></a>
 
             <div>
                 <img src={dashboard} className='dashboard-img' alt="" />

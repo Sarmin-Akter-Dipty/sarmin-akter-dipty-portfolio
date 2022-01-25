@@ -24,7 +24,7 @@ const HomeAbout = () => {
 
                     </p>
                     <a className='text-light' href='
-             https://drive.google.com/file/d/1fltzdBWJMW0yZkU1to4WEhAn4e3QOsHq/view?usp=sharing' target='_blank'><button className="btn-1">See Resume </button></a>
+             https://drive.google.com/file/d/1JAJdOzGsCvG3CNfGbHFFUzFwk3Ex0eiT/view?usp=sharing' target='_blank'><button className="btn-1">See Resume </button></a>
                     <NavLink to="/contact" className="btn-2">Hire Me</NavLink>
                 </div>
             </div>
