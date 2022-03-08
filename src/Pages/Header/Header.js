@@ -3,7 +3,7 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import './Header.css'
-import { faAddressBook, faBlog, faHome, faSign, faTasks } from '@fortawesome/free-solid-svg-icons'
+import { faAddressBook, faBlog, faHome, faTasks } from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
     return (
@@ -20,10 +20,10 @@ const Header = () => {
 
                     </Nav>
                     <Nav>
-                        <NavLink to='/home' className="items navlinks"><FontAwesomeIcon icon={faHome} />Home</NavLink>
-                        <NavLink to='/projects' className="items navlinks"><FontAwesomeIcon icon={faTasks} />Projects</NavLink>
-                        <NavLink to="/about" className="items navlinks"><FontAwesomeIcon icon={faAddressBook} />About</NavLink>
-                        <NavLink to="/blogs" className="items navlinks"><FontAwesomeIcon icon={faBlog} />Blogs</NavLink>
+                        <NavLink to='/home' className="items navlinks"><FontAwesomeIcon icon={faHome} /> Home</NavLink>
+                        <NavLink to='/projects' className="items navlinks"><FontAwesomeIcon icon={faTasks} /> Projects</NavLink>
+                        <NavLink to="/about" className="items navlinks"><FontAwesomeIcon icon={faAddressBook} /> About</NavLink>
+                        <NavLink to="/blogs" className="items navlinks"><FontAwesomeIcon icon={faBlog} /> Blogs</NavLink>
                         {/* <NavLink eventKey={2} to="/login" className="items">
                             <FontAwesomeIcon icon={faSign} />Login
                         </NavLink> */}

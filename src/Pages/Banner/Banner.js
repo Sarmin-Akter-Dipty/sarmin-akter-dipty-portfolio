@@ -14,7 +14,7 @@ const Banner = () => {
                 <span className="text">Hello!I am,</span>
                 <h1 className="text-light bold"> <span className="">SARMIN AKTER DIPTY</span></h1>
                 <Typed
-                    className=" type--text" className="text"
+                    className=" type--text text"
                     strings={[
                         'Web Developer',
                         'Junior Web Developer',
@@ -29,7 +29,7 @@ const Banner = () => {
                 <br />
                 <a className='text-light' href='
              https://drive.google.com/file/d/1JAJdOzGsCvG3CNfGbHFFUzFwk3Ex0eiT/view?usp=sharing' target='_blank'><button className="btn-1"><FontAwesomeIcon icon={faLocationArrow} />See Resume </button></a>
-                <NavLink to="/contact" className="btn-2">Contact Me</NavLink>
+                <NavLink to="/contact2" className="btn-2">Contact Me</NavLink>
 
             </div>
             <div>

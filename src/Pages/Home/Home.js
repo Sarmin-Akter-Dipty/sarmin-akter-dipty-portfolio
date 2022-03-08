@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { BallTriangle } from 'react-loader-spinner';
+import { BallTriangle, Oval } from 'react-loader-spinner';
 import HomeAbout from '../About/HomeAbout';
 import Banner from '../Banner/Banner';
 import Contact from '../Contact/Contact';

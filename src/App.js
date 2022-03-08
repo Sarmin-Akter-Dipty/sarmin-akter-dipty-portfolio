@@ -12,6 +12,7 @@ import Skills from './Pages/Skills/Skills';
 import SkillsProjects from './Pages/SkillsProjects/SkillsProjects';
 import Development from './Pages/Skills/Development';
 import Tools from './Pages/Skills/Tools';
+import Contact2 from './Pages/Contact/Conatct2';
 
 
 
@@ -41,6 +42,9 @@ function App() {
           </Route>
           <Route path="/contact" element={
             <Contact />}>
+          </Route>
+          <Route path="/contact2" element={
+            <Contact2 />}>
           </Route>
           <Route path="/skills" element={
             <Skills />}>
